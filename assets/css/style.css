@@ -428,3 +428,26 @@ footer{
         display: none;
     }
 }
+@media screen and (max-width:500px) {
+    .carrosselImage{
+        padding: 0px;
+    }
+    .carrossel{
+        height: 60vh;
+        border-radius: 0px;
+    }
+    .mebutton button{
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .tables{
+        padding: 0px;
+        width: 100%;
+        display: block;
+    }
+    .tables .box{
+        max-width: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

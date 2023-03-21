@@ -123,12 +123,9 @@
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .boxorcamento{
         width: 80%;
-    }
-    .titleorcamento{
-        /* font-size: .8rem; */
     }
     .etapabussines{
         font-size: .8rem;
@@ -136,7 +133,6 @@
     .imageOrcamento{
         width: 100%;
     }
-
 
     .boxhowiam{
         width: 80%;
