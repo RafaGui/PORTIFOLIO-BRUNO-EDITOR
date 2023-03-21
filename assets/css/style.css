@@ -436,6 +436,38 @@ footer{
         height: 60vh;
         border-radius: 0px;
     }
+    .leftText, .imageBrun{
+        animation: zoomUp 1s ease-in-out;
+    }
+    .leftText p, h1{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .leftText{
+        justify-content: left;
+        align-items: start;
+    }
+    .buttonLeftText{
+        justify-content: start;
+    }
+    .description{
+        justify-content: start;
+        color: #fff !important;
+        font-size: .85rem !important;
+    }
+    .chees{
+        display: none;
+    }
+    @keyframes zoomUp {
+        0%{
+            margin-top: 30px;
+            opacity: 0%;
+        }
+        100%{
+            margin-top: unset;
+            opacity: 100%;
+        }
+    }
     .mebutton button{
         width: 100%;
         padding: 15px 0px;
