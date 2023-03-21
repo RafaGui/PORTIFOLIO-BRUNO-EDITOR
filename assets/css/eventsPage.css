@@ -1,0 +1,150 @@
+.eventsScreen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.orcamento{
+    width: 100%;
+    height: 100vh;
+    background-color: #292929b0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    transition: .2s ease-in-out;
+    justify-content: center;
+    font-family: var(--fontfam2);
+
+    opacity: 0;
+    pointer-events:none;
+}
+.orcamentoclose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.boxorcamento{
+    width: 100%;
+    max-width: 900px;
+    /* height: 500px; */
+    background-color: var(--color01);
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.buttonOrc button{
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    background-color: #536cadc7;
+    color: var(--color01);
+    border-radius: 5px;
+    font-family: var(--fontfam);
+}
+.closepage{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.titleorcamento{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.imageOrcamento{
+    width: 300px;
+    margin: 0 auto;
+}
+.imageOrcamento img{
+    width: 100%;
+    object-fit: cover;
+}
+   /*  */
+
+.howiam{
+    width: 100%;
+    height: 100vh;
+    background-color: #292929b0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    transition: .2s ease-in-out;
+    justify-content: center;
+    font-family: var(--fontfam2);
+
+    opacity: 0;
+    pointer-events:none;
+}
+.howiamclose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.boxhowiam{
+    width: 100%;
+    max-width: 900px;
+    /* height: 500px; */
+    background-color: var(--color01);
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.imageHowiam{
+    width: 300px;
+    margin: 0 auto;
+}
+.imageHowiam img{
+    width: 100%;
+    object-fit: cover;
+}
+.closehowiam{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5rem;
+}
+.titlehowiam{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width:400px) {
+    .boxorcamento{
+        width: 80%;
+    }
+    .titleorcamento{
+        /* font-size: .8rem; */
+    }
+    .etapabussines{
+        font-size: .8rem;
+    }
+    .imageOrcamento{
+        width: 100%;
+    }
+
+
+    .boxhowiam{
+        width: 80%;
+    }
+    .imageHowiam{
+        width: 100%;
+    }
+    .etapahowiam{
+        font-size: .8rem;
+    }
+}
